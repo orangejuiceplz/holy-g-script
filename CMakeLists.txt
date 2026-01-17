@@ -3,4 +3,5 @@ project(holy_g_script C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(holy_g_script main.c)
+add_executable(holy_g_script main.c
+        test.c)
